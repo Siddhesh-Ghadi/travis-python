@@ -1,4 +1,11 @@
 arch: ppc64le
 
+dist: 
+  - bionic
+  - xenial
+  
 script:
-  - ls -la /home/travis/
+  - ls -la /home/travis/.cache
+  - ls -la /home/travis/.cache/pip
+  - ls -la /home/travis/.cache/pip/wheels
+  

@@ -1,0 +1,4 @@
+arch: ppc64le
+
+script:
+  - ls -la /home/travis/

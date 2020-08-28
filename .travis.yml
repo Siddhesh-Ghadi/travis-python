@@ -1,8 +1,8 @@
 arch: ppc64le
-
-dist: 
-  - bionic
-  - xenial
+jobs:
+  include:
+    - dist: bionic
+    - dist: xenial
   
 script:
   - ls -la /home/travis/.cache

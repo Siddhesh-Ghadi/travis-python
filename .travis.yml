@@ -5,6 +5,7 @@ jobs:
     - dist: xenial
   
 script:
+  - git config --list
   - ls -la /home/travis/.cache
   - ls -la /home/travis/.cache/pip
   - ls -la /home/travis/.cache/pip/wheels

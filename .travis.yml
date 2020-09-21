@@ -21,7 +21,7 @@ jobs:
 langauge: python
 
 python:
-  - 3.6
+  - 3.5
 
 script:
   - python --version

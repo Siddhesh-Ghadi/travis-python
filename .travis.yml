@@ -22,6 +22,8 @@ langauge: python
 arch: 
   - ppc64le
   - amd64
+  
+dist: bionic
 python:
   - 2.7
   - 3.0

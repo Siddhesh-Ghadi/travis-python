@@ -39,7 +39,7 @@ python:
 script:
   - python --version
   - #git config --global --list
-  - #ls -la /home/travis/.cache
-  - #ls -la /home/travis/.cache/pip
-  - #ls -la /home/travis/.cache/pip/wheels
+  - ls -la /home/travis/.cache
+  - ls -la /home/travis/.cache/pip
+  - ls -la /home/travis/.cache/pip/wheels
   

@@ -7,7 +7,7 @@ jobs:
     - dist: focal
       arch: ppc64le
 
-langauge: python
+language: python
 
 python:
   - 3.8
@@ -17,4 +17,5 @@ sudo: required
 script:
   - python --version
   - ls -la $HOME
+  - sudo chown -R travis:travis /home/travis/.cargo
   - pip install cryptography==3.4.7
